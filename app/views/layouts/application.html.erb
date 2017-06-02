@@ -8,6 +8,7 @@
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= stylesheet_link_tag 'application', 'http://fonts.googleapis.com/css?family=Raleway:400,700' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    <script src="https://cloud.tinymce.com/stable/tinymce.min.js"></script>
   </head>
 
   <body>
@@ -19,7 +20,7 @@
         </div>
         
         <ul>
-            <li class="category">Website</li>
+            
             <li><%= link_to "Blog", root_path %></li> 
             <li><%= link_to 'About', about_path %></li> 
         </ul>
